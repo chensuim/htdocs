@@ -1,0 +1,3 @@
+db.query("create table name(id char(28) not null, name char(21) not null, mode int(2), PRIMARY KEY(id,name))")
+db.query("create table playerm(id char(28) not null primary key, num int(2),roomm int(4), role char(1), couple boolean, answered boolean, killed boolean, shielded boolean, poisoned boolean, flute boolean, poison boolean, antidote boolean,msgid bigint(20),witch boolean)")
+db.query("create table roomm(roommid int(4), roleflag char(98), totalnumber int(2), answer int(2), currentnumber int(2), status int(1), originroleflag char(98))")
