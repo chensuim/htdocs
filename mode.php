@@ -1,8 +1,8 @@
 <?php
-define("DB_HOST", "localhost");
-define("DB_USER", "root");
-define("DB_PASS", "");
-define("DB_NAME", "murder");
+define("DB_HOST", "HOSTNAME");
+define("DB_USER", "USERNAME");
+define("DB_PASS", "PASSWORD");
+define("DB_NAME", "DATABASENAME");
 
 
 
